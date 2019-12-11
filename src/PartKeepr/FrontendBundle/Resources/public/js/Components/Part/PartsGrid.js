@@ -411,7 +411,8 @@ Ext.define('PartKeepr.PartsGrid', {
 
             if (siPrefix.get("exponent") < 0)
             {
-                return fractionValue.toFixed(Math.abs(siPrefix.get("exponent")));
+		console.log("This is a test");
+                return fractionValue.toFixed(20);
             } else
             {
                 return fractionValue;
